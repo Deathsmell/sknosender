@@ -1,0 +1,9 @@
+ООО "Стэйс" г. Молодечно
+
+<ol type="1" start="1">
+    <% for (let i = 0; i < clients.length; i++){ %>
+    <li>
+        <%= clients[i].name %> <p style="margin-left: 10px;">Рег. номер: <%=clients[i].serial%></p>
+    </li>
+    <% } %>
+</ol>
