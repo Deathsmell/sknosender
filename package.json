@@ -1,0 +1,17 @@
+{
+  "name": "sknosender",
+  "version": "1.0.0",
+  "main": "app/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^10.1.2"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "googleapis": "^59.0.0",
+    "nodemailer": "^6.4.11"
+  }
+}
